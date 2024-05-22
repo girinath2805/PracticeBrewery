@@ -1,6 +1,6 @@
 # Practice Brewery
 
-Welcome to the Practice Brewery**! 🍻
+Welcome to the **Practice Brewery**! 🍻
 
 This is where I keep all my practice code, little experiments, and random snippets. Think of it as a code playground, where the only rule is to have fun while learning!
 
