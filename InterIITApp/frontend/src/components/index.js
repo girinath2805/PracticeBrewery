@@ -1,0 +1,5 @@
+export {default as Home} from './Home'
+export {default as Admin} from './Admin'
+export {default as Patient} from './Patient'
+export {default as AddPatient} from './AddPatient'
+export {default as AddAdmin} from './AddAdmin'
