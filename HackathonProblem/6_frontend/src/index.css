@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background{
+  /* global 94%+ browsers support */
+  background: linear-gradient(89deg, rgba(2, 0, 10, 1) 0%, rgba(3, 2, 23, 1) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+/* In your CSS file (e.g., Cards.css) */
+.fire-element {
+  width: 10rem;
+  height: 10rem;
+  background: radial-gradient(circle, #ff6f61, #ff3f3f, #ff0000);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: flicker 1s infinite;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
